@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React app created
+npx create-react-app <project-name> --template typescript
 
 ## Available Scripts
 
@@ -44,3 +43,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+<!-- import ReactDOM from "react-dom/client";
+ 
+// 2) Get a reference to the div with ID root
+const el = document.getElementById("root");
+ 
+// 3) Tell React to take control of that element
+const root = ReactDOM.createRoot(el!);
+ 
+// 4) Create a component
+const App = () => {
+  return (
+    <div>
+      <h1>Hi there!</h1>
+    </div>
+  );
+};
+ 
+// 5) Show the component on the screen
+root.render(<App />); -->
